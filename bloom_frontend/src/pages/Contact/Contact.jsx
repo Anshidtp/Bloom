@@ -11,7 +11,7 @@ const CONTACT_INFO = [
   {
     icon: '📍',
     title: 'Our Studio',
-    lines: ['12 Baker's Lane, MG Road', 'Kozhikode, Kerala 673001'],
+    lines: ["12 Baker's Lane, MG Road", 'Kozhikode, Kerala 673001'],
   },
   {
     icon: '📞',
@@ -106,7 +106,7 @@ export default function Contact() {
     setFormState((p) => ({ ...p, sending: false, sent: true }))
   }
 
-  const waLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi! I'd like to enquire about a custom cake from Artisan Bloom.')}`
+  const waLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi! I'd like to enquire about a custom cake from Artisan Bloom.")}`
 
   return (
     <PageTransition>
